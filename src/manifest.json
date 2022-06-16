@@ -1,0 +1,27 @@
+{
+    "name": "New York Times subscription bypass",
+    "description": "Chrome extension to bypass the subscription panel on the article webpages on the website of the newspaper New York Times.",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "author": "vilherda",
+    "action": {
+        "default_title": "NYT bypass",
+        "default_icon": {
+            "16": "/logos/nyt-subscription-bypass_logo_16.png",
+            "32": "/logos/nyt-subscription-bypass_logo_32.png",
+            "48": "/logos/nyt-subscription-bypass_logo_48.png",
+            "128": "/logos/nyt-subscription-bypass_logo_128.png"
+        }
+    },
+    "icons": {
+        "16": "/logos/nyt-subscription-bypass_logo_16.png",
+        "32": "/logos/nyt-subscription-bypass_logo_32.png",
+        "48": "/logos/nyt-subscription-bypass_logo_48.png",
+        "128": "/logos/nyt-subscription-bypass_logo_128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["activeTab", "scripting"],
+    "host_permissions": ["https://*.nytimes.com/*"]
+}

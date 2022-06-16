@@ -1,0 +1,25 @@
+{
+  "name": "newyorktimes-subscription-bypass",
+  "version": "1.0.0",
+  "description": "Chrome extension to bypass the subscription panel on the article webpages on the website of the newspaper New York Times.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vilherda/newyorktimes-subscription-bypass.git"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "newyorktimes",
+    "bypass"
+  ],
+  "author": "vilherda@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vilherda/newyorktimes-subscription-bypass/issues"
+  },
+  "homepage": "https://github.com/vilherda/newyorktimes-subscription-bypass#readme"
+}
